@@ -19,7 +19,7 @@ function ret = read_log_socket()
 
 % TCPIP
 f = tcpip('0.0.0.0', 8000, 'NetworkRole', 'server');
-f.InputBufferSize = 1024;
+f.InputBufferSize = 1500;
 f.Timeout = 15;
 fopen(f);
 
