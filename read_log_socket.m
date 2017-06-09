@@ -191,8 +191,9 @@ while 1
     count = count + 1;
     ret{count} = csi_matrix;
     
-	if (count == 3)
-		csi_trace = ret(1:(count-1));
+	if (count == 1)
+		% csi_trace = ret(1:(count-1));
+        csi_trace = ret(1);
 		[csi_size,tmp]=size(csi_trace);
 		% set(figure(fig),'WindowStyle','docked');
 		clf;
