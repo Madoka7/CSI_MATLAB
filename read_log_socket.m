@@ -13,6 +13,11 @@
 %%   Copyright (c)  WANDS group @ Nanyang Technological University
 %% =====================================================================================
 %%
+%%   Modified by Xiangqi Kong, 2017
+%%   Function: Create a socket server to real-time collect CSI data sent from linux laptop.
+%%
+%%
+%%
 
 function ret = read_log_socket()
 
